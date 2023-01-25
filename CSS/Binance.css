@@ -1,0 +1,122 @@
+nav {
+    background-color: peachpuff;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    color: rgb(123, 123, 123);
+}
+
+.hoverof1,
+.hoverof2,
+.hoverof3,
+.hoverof4,
+.hoverof5,
+.hoverof6,
+.hoverof7 {
+    position: absolute;
+    display: none;
+}
+
+a:hover{
+    color: orange;
+}
+
+.divmain1 {
+    background-color: peachpuff;
+    border: 1px solid black;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divmain2 {
+    background-color: peachpuff;
+    border: 1px solid black;
+    width: 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.in2main1,
+.in2main2,
+.in2main3,
+.in2main4,
+.in2main5,
+.in2main6 {
+    margin-top: 15px;
+}
+.in2main2 button{
+    padding: 5px 10px;
+    border: none;
+    background-color: orange;
+}
+.in2main2 button a:hover{
+    color: white;
+}
+
+.logo {
+    height: 50px;
+}
+
+.inmain2,
+.inmain3,
+.inmain4,
+.inmain5,
+.inmain6,
+.inmain7,
+.inmain8,
+.inmain9,
+.inmain10,
+.inmain11 {
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(123, 123, 123);
+}
+
+.inmain2:hover .hoverof1 {
+    display: block;
+    margin-top: 20px;
+}
+
+.hoverof7 img,
+.hoverof6 img,
+.hoverof5 img,
+.hoverof4 img,
+.hoverof3 img,
+.hoverof2 img,
+.hoverof1 img{
+
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.inmain3:hover .hoverof2 {
+    display: block;
+}
+
+.inmain5:hover .hoverof3 {
+    display: block;
+}
+
+.inmain6:hover .hoverof4 {
+    display: block;
+}
+
+.inmain7:hover .hoverof5 {
+    display: block;
+}
+
+.inmain8:hover .hoverof6 {
+    display: block;
+}
+
+.inmain10:hover .hoverof7 {
+    display: block;
+}

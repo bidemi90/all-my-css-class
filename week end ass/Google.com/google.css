@@ -1,0 +1,296 @@
+body {
+    background-image: url(./image/Homepage-Model-S-Desktop-LHD.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+nav div {
+    margin-left: 20px;
+}
+
+.googleappspace {
+    display: none;
+    height: 500px;
+    width: 310px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: rgb(46, 47, 47);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.googleappspace a {
+    text-decoration: none;
+    color: white;
+}
+
+.googleappspace::-webkit-scrollbar {
+    display: none;
+}
+
+.googleapps:focus-within .googleappspace {
+    display: contents;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    right: 5px;
+    top: 80px;
+}
+
+.appbut {
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.appbut:hover {
+    background-color: rgba(255, 255, 255, 0.36);
+}
+
+.oneapp img {
+    height: 70px;
+    width: 70px;
+}
+
+.probutton {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.pro1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.onclickpro {
+    display: none;
+}
+
+.probutton:focus .onclickpro {
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 10%;
+    border-radius: 10px;
+}
+
+.pro2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.onclickpro {
+    height: 480px;
+    width: 400px;
+    background-color: rgb(62, 62, 62);
+    color: white;
+
+}
+
+.onclickpro a {
+    color: white;
+}
+
+.firstline {
+    height: 230px;
+    padding: 20px;
+
+}
+
+.secondline {
+    width: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.howtoreg {
+    width: 250px;
+    margin: auto;
+    text-align: left;
+}
+
+.textforsl {
+    text-align: left;
+    margin-top: 8px;
+}
+
+.pro3 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.sdf {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
+    margin: auto;
+}
+
+.sig {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
+    margin: auto;
+}
+
+.logo {
+    width: fit-content;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.searchbar {
+
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    z-index: 2;
+}
+
+.bar {
+    width: 700px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.bar input {
+    width: 650px;
+    height: 25px;
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+
+.history {
+    position: absolute;
+    width: 700px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 0 0 30px 30px;
+    text-align: center;
+    display: none;
+}
+
+.history button {
+
+    width: 680px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.history button span {
+    margin-left: 20px;
+    margin-right: 550px;
+}
+.history button:hover{
+    background-color: rgba(101, 103, 105, 0.312);
+}
+.remove {
+    display: none;
+}
+
+.history button:hover .remove {
+    display: contents;
+}
+
+.searchbar:focus-within .bar {
+    border-radius: 30px 30px 0 0;
+}
+
+.searchbar:focus-within .history {
+    display: block;
+}
+
+.boxcontainer{
+width:700px ;
+height: fit-content;
+padding: 20px;
+display: flex;
+flex-wrap: wrap;
+margin: auto;
+margin-top: 20px;
+z-index: -1;
+background-color: rgb(118, 118, 118);
+border-radius: 50px;
+}
+
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    color: white;
+}
+.box:hover{
+    background-color: rgba(105, 105, 105, 0.338);
+}
+.box *{
+    color: rgb(255, 255, 255);
+}
+.edithover{
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    display: none;
+}
+.box:hover .edithover{
+    display: block;
+}
+.edithover:hover{
+    background-color: rgba(255, 255, 255, 0.367);
+}
+.edit{
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    background-color: rgb(68, 68, 68);
+    top: 5px;
+    right: 2px;
+    border-radius: 5px;
+    display: none;
+}
+.editbut:focus-within .edit{
+    display: block;
+}
+.edit div:hover{
+    background-color: rgba(255, 255, 255, 0.231);
+}

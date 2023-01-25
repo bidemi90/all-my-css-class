@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main {
+            height: 700px;
+            width: 700px;
+            background-color: rebeccapurple;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        div {
+            height: 200px;
+            width: 200px;
+            background-color: tomato;
+        }
+
+        .ddf {
+            align-self: flex-end;
+        }
+
+        .rrt {
+            align-self: flex-start;
+        }
+        aside{
+            border: 1px solid black;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            border-radius: 100px;
+        }
+        aside:hover{
+            height: 200px;
+            width: 100px;
+            background-color: gray;
+            border: 1px solid green;
+            border-radius: 50px;
+            /* transition-property: height, background-color, border-radius, width; */
+            /* transition-property: all;
+            transition-duration: 1s;
+            transition-timing-function: linear; */
+            transition: all 1s linear;
+        }
+        section{
+            display: flex;
+
+            width: 410px;
+            flex-wrap: wrap;
+            margin: auto;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="rrt"></div>
+        <div class="ggt"></div>
+        <div class="ddf"></div>
+    </main>
+
+    <section>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+        <aside></aside>
+    </section>
+
+</body>
+
+</html>

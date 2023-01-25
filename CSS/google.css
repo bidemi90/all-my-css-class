@@ -1,0 +1,316 @@
+body {
+    background-image: url(./image/g.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: end;
+}
+
+.navspace {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gmail,
+.img {
+    margin-top: 15px;
+}
+
+.appcr {
+    margin-top: 10px;
+}
+
+.spaceapp {
+    height: 500px;
+    width: 350px;
+    display: none;
+}
+
+.appcr:focus-within .spaceapp {
+    display: contents;
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+   
+}
+
+.applogoimg {
+    height: 70px;
+    width: 70px;
+}
+
+.oneapp {
+    margin: 10px;
+}
+.appbut{
+    background-color: rgba(255, 255, 255, 0.492);
+    border: none;
+    border-radius: 10px;
+}
+.appbut a{
+    color: white;
+    text-decoration: none;
+}
+.appbut:hover{
+    background-color: white;
+    transition: all 0.5s linear;
+}
+.appbut:hover  a{
+    color: black;
+    transition: all 0.5s linear;
+}
+
+.probutton {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.pro1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.onclickpro {
+    display: none;
+}
+
+.probutton:focus .onclickpro {
+    display: block;
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    border-radius: 10px;
+}
+
+.pro2 {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.onclickpro {
+    height: 480px;
+    width: 400px;
+    background-color: rgb(62, 62, 62);
+    color: white;
+
+}
+
+.onclickpro a {
+    color: white;
+}
+
+.firstline {
+    height: 230px;
+    padding: 20px;
+
+}
+
+.secondline {
+    width: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 10px; */
+    padding-bottom: 10px;
+}
+
+.howtoreg {
+    width: 250px;
+    margin: auto;
+    text-align: left;
+    /* padding-bottom: 20px; */
+}
+
+.textforsl {
+    text-align: left;
+    margin-top: 8px;
+}
+
+.pro3 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.sdf {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
+    margin: auto;
+}
+
+.sig {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
+    margin: auto;
+}
+
+.logo {
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    margin-top: 220px;
+}
+
+
+.searchbar {
+    width: fit-content;
+    margin: auto;
+    background-color: rgb(130, 66, 66);
+    z-index: 1;
+}
+
+.searchbar .click {
+    width: 700px;
+    background-color: white;
+    padding: 10px 20px;
+    margin: auto;
+    border-radius: 50px;
+
+
+}
+
+.searchbar {
+    background-color: rgba(240, 248, 255, 0);
+    z-index: 99;
+}
+
+input {
+    width: 650px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+
+}
+
+.his div {
+    width: 700px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.his {
+    display: none;
+}
+
+
+.searchbar:focus-within .his {
+    display: block;
+    position: absolute;
+    background-color: white;
+    border-radius: 0 0 30px 30px;
+    color: black;
+}
+.his a{
+    text-decoration: none;
+    color: black;
+}
+.his a div:hover{
+    background-color: rgba(35, 35, 35, 0.137);
+}
+.searchbar:focus-within .click {
+    border-radius: 30px 30px 0 0;
+}
+
+
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: sandybrown;
+    border: 2px solid violet;
+}
+
+.bigbox {
+
+    width: 530px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+    
+    
+}
+
+.theapp{
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+.theapphover{
+    padding: 10px;
+     
+}
+
+.thehoverbut{
+    background-color: rgba(240, 248, 255, 0);
+    border: none;
+    border-radius: 50%;
+}
+.thehoverbut{
+    visibility: hidden;
+}
+.box:hover .thehoverbut{
+    visibility: visible;
+}
+.thehoverbut:hover{
+    background-color: rgba(63, 63, 63, 0.597);
+    color: white;
+}
+.theapphover:focus-within .thehoverofhover{
+display: block;
+}
+
+.thehoverofhover{
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.thehoverofhover div{
+    padding: 5px;
+}
+.thehoverofhover div a{
+    color: white;
+    text-decoration: none;
+}
+.thehoverofhover div:hover{
+    background-color: rgb(126, 126, 126);
+}
+.box{
+    position: relative;
+   
+}
+.theapphover{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.thehoverofhover{
+    display: none;
+}
+.thehoverofhover{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+

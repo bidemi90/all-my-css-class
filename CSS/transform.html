@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        nav{
+            height: 50px ;
+            background-color: green;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+        div{
+            height: 30px;
+            width: 200px;
+            background-color: firebrick;
+            color: white;
+            text-align: center;
+        }
+        div:hover{
+            background-color: honeydew;
+            color: saddlebrown;
+        }
+        
+        section{
+            width: 200px;
+            background-color: forestgreen;
+            display: none;
+        }
+        div:hover section{
+            display: block;
+            position: absolute;
+            
+        }
+        @media screen and (max-width:500px) {
+            nav{
+                display: block;
+                width: fit-content;
+                height: fit-content;
+                padding: 20px;
+                background-color: goldenrod;
+            }
+            div{
+                height:200px;
+                background-color: khaki;
+            }
+            div:hover section{
+                right: -10px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div>lorem
+            <section>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod culpa ipsam ducimus, quam quidem eum adipisci. Vero enim quis numquam quia consequatur eaque nulla optio ipsa. Doloremque quas harum illo.
+            </section>
+        </div>
+        <div>lorem
+            <section>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod culpa ipsam ducimus, quam quidem eum adipisci. Vero enim quis numquam quia consequatur eaque nulla optio ipsa. Doloremque quas harum illo.
+            </section>
+        </div>
+        <div>lorem
+            <section>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod culpa ipsam ducimus, quam quidem eum adipisci. Vero enim quis numquam quia consequatur eaque nulla optio ipsa. Doloremque quas harum illo.
+            </section>
+        </div>
+        <div>lorem
+            <section>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod culpa ipsam ducimus, quam quidem eum adipisci. Vero enim quis numquam quia consequatur eaque nulla optio ipsa. Doloremque quas harum illo.
+            </section>
+        </div>
+        <div>lorem
+            <section>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod culpa ipsam ducimus, quam quidem eum adipisci. Vero enim quis numquam quia consequatur eaque nulla optio ipsa. Doloremque quas harum illo.
+            </section>
+        </div>
+        <div>lorem
+            <section>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod culpa ipsam ducimus, quam quidem eum adipisci. Vero enim quis numquam quia consequatur eaque nulla optio ipsa. Doloremque quas harum illo.
+            </section>
+        </div>
+        <div>lorem
+            <section>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod culpa ipsam ducimus, quam quidem eum adipisci. Vero enim quis numquam quia consequatur eaque nulla optio ipsa. Doloremque quas harum illo.
+            </section>
+        </div>
+      
+    </nav>
+</body>
+</html>

@@ -1,0 +1,1632 @@
+body {
+    background-color: white;
+    font-family: sans-serif;
+    margin: 0px;
+}
+
+
+
+nav {
+    background-color: rgb(255, 255, 255);
+
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.hover1div,
+.hover2div,
+.hover3div,
+.hover4div,
+.hover5div,
+.hover6div,
+.hover7div {
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+}
+
+.logodiv {
+    margin-right: 150px;
+
+}
+
+
+
+.hover4div,
+.hover5div,
+.hover7div {
+    margin-top: 15px;
+}
+
+.hovercontent1,
+.hovercontent2,
+.hovercontent3,
+.hovercontent6 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: none;
+    position: absolute;
+}
+
+.hovercontent1 div,
+.hovercontent2 div,
+.hovercontent3 div,
+.hovercontent6 div {
+    margin: 10px;
+    margin-top: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    color: rgb(152, 230, 119);
+}
+
+.hovercontent1 div a,
+.hovercontent2 div a,
+.hovercontent3 div a,
+.hovercontent6 div a {
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+
+.hovercontent1 div a:hover,
+.hovercontent2 div a:hover,
+.hovercontent3 div a:hover,
+.hovercontent6 div a:hover {
+    text-decoration: none;
+    color: rgb(152, 230, 119);
+}
+
+
+.hover1div:hover .hovercontent1,
+.hover2div:hover .hovercontent2,
+.hover3div:hover .hovercontent3,
+.hover6div:hover .hovercontent6 {
+    display: block;
+    transition: all 1s linear;
+    margin-top: 8px;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.hover6,
+.hover3,
+.hover2,
+.hover1 {
+    color: rgb(0, 0, 0);
+}
+
+.hover6:hover,
+.hover3:hover,
+.hover2:hover,
+.hover1:hover {
+    color: rgb(152, 230, 119);
+}
+
+.hover7div {
+    margin-top: 10px;
+}
+
+main {
+    margin: 0px;
+}
+
+main .hearformspring {
+    background-image: url(./image/spring.io/hearfromspring.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+main .hearformspring h1 {
+    font-family: Helvetica;
+    font-size: 60px;
+}
+
+main .hearformspring h3 {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #333333;
+    font-size: 19.2px
+}
+
+main .hearformspring .buttonreg {
+
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid black;
+
+    margin: auto;
+    position: relative;
+
+
+    height: 60px;
+    width: 190px;
+}
+
+.reghover {
+    height: 60px;
+    width: 0px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.buttonreg:hover .reghover {
+    width: 190px;
+    transition: all 1s linear;
+}
+
+.buttonreg a {
+    position: absolute;
+    right: 18%;
+    top: 37%;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
+.buttonreg:hover a {
+    color: rgb(255, 255, 255);
+    transition: all 1s linear;
+}
+
+
+.new {
+    width: 700px;
+    display: flex;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.new .bluenew {
+    background-color: rgb(0, 102, 204);
+    padding: 5px;
+    color: white;
+    font-weight: bolder;
+    width: 60px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.line section {
+    height: 3px;
+    width: 0px;
+    background-color: rgb(0, 102, 204);
+
+}
+
+.line:hover .line1 {
+    width: 300px;
+    transition: all 0.5s ease-in;
+}
+
+
+.line2 {
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+}
+
+.line22 {
+    height: 3px;
+    width: 0px;
+    background-color: rgb(0, 102, 204);
+    position: absolute;
+
+}
+
+.line2:hover .line22 {
+    width: 110px;
+    transition: all 0.5s ease-in;
+}
+
+.line2 a {
+    text-decoration: none;
+}
+
+.line3 {
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+}
+
+.line33 {
+    height: 3px;
+    width: 0px;
+    background-color: rgb(0, 102, 204);
+    position: absolute;
+
+}
+
+.line3:hover .line33 {
+    width: 155px;
+    transition: all 0.5s ease-in;
+}
+
+.line3 a {
+    text-decoration: none;
+}
+
+.line4 {
+    display: inline-block;
+    position: relative;
+    width: fit-content;
+}
+
+.line44 {
+    height: 3px;
+    width: 0px;
+    background-color: rgb(0, 102, 204);
+    position: absolute;
+
+}
+
+.line4:hover .line44 {
+    width: 85px;
+    transition: all 0.5s ease-in;
+}
+
+.line4 a {
+    text-decoration: none;
+}
+
+
+.line5 {
+    display: inline-block;
+    align-self: start;
+    width: fit-content;
+    z-index: inherit;
+}
+
+.line55 {
+    height: 3px;
+    width: 0px;
+    background-color: rgb(0, 102, 204);
+
+
+}
+
+.line5:hover .line55 {
+    width: 85px;
+    transition: all 0.5s ease-in;
+}
+
+.line5 a {
+    text-decoration: none;
+}
+
+.line6 {
+    display: inline-block;
+    align-self: start;
+    width: fit-content;
+    z-index: inherit;
+}
+
+.line66 {
+    height: 3px;
+    width: 0px;
+    background-color: rgb(0, 102, 204);
+
+
+}
+
+.line6:hover .line66 {
+    width: 65px;
+    transition: all 0.5s ease-in;
+}
+
+.line6 a {
+    text-decoration: none;
+}
+
+
+
+.new a {
+    margin-top: 5px;
+    color: rgb(0, 102, 204);
+    font-weight: 550;
+    text-decoration: none;
+}
+
+main .whatspringcando {
+    width: 1460px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    margin: auto;
+
+}
+
+main .whatspringcando .box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 1460px;
+    height: fit-content;
+    padding: 20px;
+    padding-left: 0;
+    padding-right: 0;
+
+
+
+}
+
+main .whatspringcando .box .insidebox {
+    width: 300px;
+    height: 370px;
+    display: block;
+    border: 2px solid rgb(144, 143, 143);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+main .whatspringcando .box .insidebox:hover {
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.213);
+    margin-top: -5px;
+    transition: all 0.2s ease-out;
+
+}
+
+.box a {
+    text-decoration: none;
+
+}
+
+.insideboxtext {
+    color: black;
+}
+
+.insidebox:hover .insideboxtext {
+    color: rgb(152, 230, 119);
+}
+
+.text1,
+.text2,
+.text3,
+.text4,
+.text5,
+.text6,
+.text7 {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 60px;
+    margin-top: 40px;
+    color: #333333;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+
+
+.text2,
+.text6 {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 70px;
+    margin-top: 60px;
+    color: #333333;
+    font-size: 16px;
+    text-align: center;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.levelupyour {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.levelupyour .imagebox img {
+    height: 400px;
+    width: 1000px;
+    border-radius: 10px;
+}
+
+.levelupyour .textlevelup {
+    text-align: left;
+}
+
+.levelupyour .textlevelup h1 {
+    color: #191e1e;
+    font-family: Helvetica;
+    font-size: 38px;
+}
+
+.textlevelup a {
+    color: rgb(0, 102, 204);
+}
+
+.humantext {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.humantext img {
+    margin-bottom: 30px;
+}
+
+.humantext blockquote {
+    color: rgb(109, 179, 63);
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.prohuman {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.prohumandetails {
+    margin-left: 20px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.prohumandetails span {
+    color: rgb(25, 30, 30);
+    font-size: 14px;
+    font-family: sans-serif;
+}
+
+.prohumandetails a {
+    color: rgb(0, 102, 204);
+}
+
+.greencircletext {
+    background-color: #ebf2f2;
+    padding: 80px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.greencircletext h2 {
+    color: rgb(25, 30, 30);
+    font-size: 24px;
+    font-family: sans-serif;
+}
+
+.greencircletext p {
+    color: #333333;
+    font-size: 16px;
+}
+
+.greencircletext a {
+    color: rgb(0, 102, 204);
+    font-size: 16px;
+}
+
+.greencircletext div {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.dot {
+    position: absolute;
+    top: 80px;
+    height: 100px;
+    width: 100px;
+    right: 270px;
+    z-index: 1;
+
+}
+
+.cir {
+    height: 250px;
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    opacity: 70%;
+}
+
+footer {
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 200px;
+
+}
+
+footer .gettheSpringnewsletter {
+    display: flex;
+    width: 1460px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+footer .gettheSpringnewsletter div a {
+    display: block;
+    text-align: left;
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+footer .gettheSpringnewsletter div a:hover {
+    color: rgb(152, 230, 119);
+}
+
+.insideinput {
+    display: flex;
+}
+
+.inputemail {
+    text-align: left;
+}
+
+.inputemail div .inpu {
+    margin: 0px;
+    height: 40px;
+    width: 270px;
+    border-radius: 0;
+    border: 1px solid black;
+
+}
+
+.inputemail div .inpu:focus-within {
+    border: 2px solid rgb(109, 179, 63);
+    outline: none;
+}
+
+.inputemail div button {
+    /* height: 45px;
+    width: 150px; */
+    border-radius: 0;
+    padding: 15px 20px;
+    border: none;
+    text-align: center;
+    background-color: black;
+}
+
+.inputemail div button:hover {
+    background-color: rgb(109, 179, 63);
+}
+
+.inputemail div button a {
+    margin: 0px;
+    color: white;
+}
+
+.inputemail div button a:hover {
+    color: white;
+}
+
+.checkbox {
+    display: flex;
+    align-items: baseline;
+}
+
+.checkbox p {
+    color: rgb(105, 105, 105);
+}
+
+.about {
+    width: 1310px;
+    margin: auto;
+    margin-top: 60px;
+
+}
+
+.logoabout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoabout div i {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    color: white;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.logoabout div i:hover {
+    background-color: rgb(152, 230, 119);
+}
+
+.aboutustext {
+    text-align: left;
+    color: rgb(105, 105, 105);
+}
+
+.nav2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1450px) {
+    
+
+    .nav1 {
+        display: none;
+    }
+
+    .nav2 {
+        display: block;
+    }
+
+    nav {
+        
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .logo {
+        width: 100%;
+        height: 40px;
+    }
+
+
+
+    .nav2 aside article {
+        display: none;
+    }
+
+    aside:focus-within article {
+        display: block;
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        right: 0;
+        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.2);
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+
+    }
+
+    .nav2drop * {
+        color: white;
+    }
+
+.asidebut{
+    background-color: rgb(109, 179, 63);
+    border: none;
+    height: 30px;
+    width: 50px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
+
+    nav a:hover {
+        color: rgb(152, 230, 119);
+    }
+
+    main {
+        margin: 0px;
+    }
+
+    main .hearformspring h1 {
+
+        font-size: 40px;
+    }
+
+    main .hearformspring h3 {
+        font-size: 13.2px
+    }
+
+    main .hearformspring .buttonreg {
+        margin: auto;
+        position: relative;
+        height: 50px;
+        width: 150px;
+    }
+
+    .reghover {
+        height: 50px;
+        width: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    }
+
+    .buttonreg:hover .reghover {
+        width: inherit;
+        transition: all 1s linear;
+    }
+
+    .buttonreg a {
+        font-size: small;
+    }
+
+    .new {
+        width: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        font-size: small;
+    }
+
+    .nav2 {
+        display: flex;
+    }
+
+    .line:hover .line1 {
+        width: 240px;
+    }
+
+    main .whatspringcando {
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 60px;
+
+    }
+
+    main .whatspringcando .box {
+        display: flex;
+       
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+        padding: 0px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .levelupyour {
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .levelupyour .imagebox img {
+        height: 100%;
+        width: 80%;
+        border-radius: 10px;
+
+    }
+
+    .prohumandetails span {
+        color: rgb(25, 30, 30);
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+
+    .greencircletext {
+        
+        padding: 40px;
+        display: flex;
+        
+        justify-content: center;
+        position: relative;
+    }
+
+    .dot {
+        position: absolute;
+        top: 8%;
+        height: 50px;
+        width: 50px;
+        right: 27%;
+        z-index: 1;
+
+    }
+
+    .cir {
+        height: 100px;
+        width: auto;
+        position: absolute;
+        bottom: 0;
+        right: 30%;
+        opacity: 70%;
+    }
+
+    footer {
+        height: 500px;
+        
+        text-align: center;
+    }
+
+    footer .gettheSpringnewsletter {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+    }
+
+    footer .gettheSpringnewsletter div {
+        display: block;
+
+    }
+
+    .inputemail {
+        text-align: left;
+        
+        width: 80%;
+    }
+
+    .inputemail aside .inpu {
+        margin: 0px;
+        height: 40px;
+        width: 270px;
+        border-radius: 0;
+        border: 1px solid black;
+
+    }
+
+    .insideinput {
+        display: flex;
+        
+    }
+
+    .inputemail aside .inpu:focus-within {
+        border: 2px solid rgb(109, 179, 63);
+        outline: none;
+    }
+
+    .inputemail aside button {
+
+        border-radius: 0;
+        padding: 15px 20px;
+        border: none;
+        text-align: center;
+        background-color: black;
+    }
+
+    .inputemail aside button:hover {
+        background-color: rgb(109, 179, 63);
+    }
+
+    .inputemail aside button a {
+        margin: 0px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .about {
+        width: 100%;
+        margin: auto;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .logoabout {
+       
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutustext {
+        text-align: left;
+        color: rgb(105, 105, 105);
+        width: 90%;
+        text-align: justify;
+    }
+   
+    footer .gettheSpringnewsletter div {
+      
+       margin: 0 20px ;
+
+    }
+    
+
+}
+
+
+
+
+@media screen and (max-width:1300px) {
+  
+
+    .nav1 {
+        display: none;
+    }
+
+    .nav2 {
+        display: block;
+    }
+
+    nav {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .logo {
+        width: 100%;
+        height: 40px;
+    }
+
+
+
+    .nav2 aside article {
+        display: none;
+    }
+
+    aside:focus-within article {
+        display: block;
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        right: 0;
+        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.2);
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+
+    }
+
+    .nav2drop * {
+        color: white;
+    }
+
+.asidebut{
+    background-color: rgb(109, 179, 63);
+    border: none;
+    height: 30px;
+    width: 50px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
+
+    nav a:hover {
+        color: rgb(152, 230, 119);
+    }
+
+    main {
+        margin: 0px;
+    }
+
+    main .hearformspring h1 {
+
+        font-size: 40px;
+    }
+
+    main .hearformspring h3 {
+        font-size: 13.2px
+    }
+
+    main .hearformspring .buttonreg {
+        margin: auto;
+        position: relative;
+        height: 50px;
+        width: 150px;
+    }
+
+    .reghover {
+        height: 50px;
+        width: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    }
+
+    .buttonreg:hover .reghover {
+        width: inherit;
+        transition: all 1s linear;
+    }
+
+    .buttonreg a {
+        font-size: small;
+    }
+
+    .new {
+        width: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        font-size: small;
+    }
+
+    .nav2 {
+        display: flex;
+    }
+
+    .line:hover .line1 {
+        width: 240px;
+    }
+
+    main .whatspringcando {
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 60px;
+
+    }
+
+    main .whatspringcando .box {
+        display: flex;
+       
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+        padding: 0px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .levelupyour {
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .levelupyour .imagebox img {
+        height: 100%;
+        width: 80%;
+        border-radius: 10px;
+
+    }
+
+    .prohumandetails span {
+        color: rgb(25, 30, 30);
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+
+    .greencircletext {
+        padding: 40px;
+        display: flex;
+        
+        justify-content: center;
+        position: relative;
+    }
+
+    .dot {
+        position: absolute;
+        top: 8%;
+        height: 50px;
+        width: 50px;
+        right: 27%;
+        z-index: 1;
+
+    }
+
+    .cir {
+        height: 100px;
+        width: auto;
+        position: absolute;
+        bottom: 0;
+        right: 30%;
+        opacity: 70%;
+    }
+
+    footer {
+        height: 500px;
+        text-align: center;
+    }
+
+    footer .gettheSpringnewsletter {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+    }
+
+    footer .gettheSpringnewsletter div {
+        display: block;
+
+    }
+
+    .inputemail {
+        text-align: left;
+        
+        width: 80%;
+    }
+
+    .inputemail aside .inpu {
+        margin: 0px;
+        height: 40px;
+        width: 270px;
+        border-radius: 0;
+        border: 1px solid black;
+
+    }
+
+    .insideinput {
+        display: flex;
+        
+    }
+
+    .inputemail aside .inpu:focus-within {
+        border: 2px solid rgb(109, 179, 63);
+        outline: none;
+    }
+
+    .inputemail aside button {
+
+        border-radius: 0;
+        padding: 15px 20px;
+        border: none;
+        text-align: center;
+        background-color: black;
+    }
+
+    .inputemail aside button:hover {
+        background-color: rgb(109, 179, 63);
+    }
+
+    .inputemail aside button a {
+        margin: 0px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .about {
+        width: 100%;
+        margin: auto;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .logoabout {
+       
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutustext {
+        text-align: left;
+        color: rgb(105, 105, 105);
+        width: 90%;
+        text-align: justify;
+    }
+   
+    footer .gettheSpringnewsletter div {
+      
+       margin: 0 20px ;
+
+    }
+    
+
+}
+
+
+
+
+
+@media screen and (max-width:600px) {
+   
+
+    .nav1 {
+        display: none;
+    }
+
+    .nav2 {
+        display: block;
+    }
+
+    nav {
+
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .logo {
+        width: 100%;
+        height: 40px;
+    }
+
+
+
+    .nav2 aside article {
+        display: none;
+    }
+
+    aside:focus-within article {
+        display: block;
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        right: 0;
+        box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.2);
+        height: 100%;
+        width: 100%;
+        z-index: 10;
+
+    }
+
+    .nav2drop * {
+        color: white;
+    }
+
+.asidebut{
+    background-color: rgb(109, 179, 63);
+    border: none;
+    height: 30px;
+    width: 50px;
+    color: white;
+    border-radius: 5px;
+
+}
+
+    nav a {
+        text-decoration: none;
+        color: black;
+    }
+
+    nav a:hover {
+        color: rgb(152, 230, 119);
+    }
+
+    main {
+        margin: 0px;
+    }
+
+    main .hearformspring h1 {
+
+        font-size: 40px;
+    }
+
+    main .hearformspring h3 {
+        font-size: 13.2px
+    }
+
+    main .hearformspring .buttonreg {
+        margin: auto;
+        position: relative;
+        height: 50px;
+        width: 150px;
+    }
+
+    .reghover {
+        height: 50px;
+        width: 0px;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    }
+
+    .buttonreg:hover .reghover {
+        width: inherit;
+        transition: all 1s linear;
+    }
+
+    .buttonreg a {
+        font-size: small;
+    }
+
+    .new {
+        width: initial;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        font-size: small;
+    }
+
+    .nav2 {
+        display: flex;
+    }
+
+    .line:hover .line1 {
+        width: 240px;
+    }
+
+    main .whatspringcando {
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 60px;
+
+    }
+
+    main .whatspringcando .box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+        padding: 0px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .levelupyour {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .levelupyour .imagebox img {
+        height: 100%;
+        width: 80%;
+        border-radius: 10px;
+
+    }
+
+    .prohumandetails span {
+        color: rgb(25, 30, 30);
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+
+    .greencircletext {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+    }
+
+    .dot {
+        position: absolute;
+        top: 8%;
+        height: 50px;
+        width: 50px;
+        right: 27%;
+        z-index: 1;
+
+    }
+
+    .cir {
+        height: 100px;
+        width: auto;
+        position: absolute;
+        bottom: 0;
+        right: 30%;
+        opacity: 70%;
+    }
+
+    footer {
+        height: 500px;
+        text-align: center;
+    }
+
+    footer .gettheSpringnewsletter {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+    }
+
+    footer .gettheSpringnewsletter div {
+        display: none;
+
+    }
+
+    .inputemail {
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .inputemail aside .inpu {
+        margin: 0px;
+        height: 40px;
+        width: 270px;
+        border-radius: 0;
+        border: 1px solid black;
+
+    }
+
+    .insideinput {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inputemail aside .inpu:focus-within {
+        border: 2px solid rgb(109, 179, 63);
+        outline: none;
+    }
+
+    .inputemail aside button {
+
+        border-radius: 0;
+        padding: 15px 20px;
+        border: none;
+        text-align: center;
+        background-color: black;
+    }
+
+    .inputemail aside button:hover {
+        background-color: rgb(109, 179, 63);
+    }
+
+    .inputemail aside button a {
+        margin: 0px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .about {
+        width: 100%;
+        margin: auto;
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .logoabout {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutustext {
+        text-align: left;
+        color: rgb(105, 105, 105);
+        width: 90%;
+        text-align: justify;
+    }
+
+}
+
+

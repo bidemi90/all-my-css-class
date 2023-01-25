@@ -1,0 +1,47 @@
+/* div{
+    background-color: palegoldenrod;
+}
+button{
+    background-color: palevioletred;
+    height: 50px;
+    padding: 100px;
+}
+button:hover{
+    background-color: red;
+
+}
+button:focus{
+    background-color: green;
+    height: 500px;
+}
+button:focus div{
+    background-color: rebeccapurple;
+
+} */
+/* .red{
+    padding: 30px;
+}
+.red:hover{
+    background-color: forestgreen;
+    padding: 10px;
+}
+.red:focus div{
+    background-color: sandybrown;
+    padding: 50px;
+} */
+button {
+    background-color: red;
+    height: 20px;
+    width: 300px;
+}
+button:focus{
+    background-color: rebeccapurple;
+    height: 50px;
+}
+/* button:focus input{
+ 
+} */
+button:focus-within input{
+    background-color: red;
+    border: 5px solid pink;
+}

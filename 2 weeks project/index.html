@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.min.css">
+    <script src="./bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./icofont/icofont.min.css">
+    <style>
+        .section1 {
+            background-color: #00DBDE;
+            background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+            height: fit-content;
+        }
+
+        .section4 {
+            background-color: #00DBDE;
+            background-image: linear-gradient(90deg, #FC00FF 0%, #00DBDE 100%);
+
+        }
+
+        .bnt:hover {
+            color: purple;
+        }
+
+        .section1 *,
+        .section4 * {
+            color: white;
+        }
+
+        .section3 {
+            background-image: radial-gradient(#00dade86,
+                    #fb00ff87), url(./images/MotherToBaby-Homepage-Header-1600x900-1.jpg);
+            width: 100%;
+            height: fit-content;
+            padding: 10px;
+            text-align: center;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: left;
+        }
+
+        .them {
+            height: 400px;
+            width: 400px;
+            background-color: #FF3CAC;
+            background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+            border-radius: 50% 50% 70% 30% / 37% 41% 59% 63%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            padding: 40px;
+        }
+
+        .section6 {
+            width: fit-content;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .erwww {
+            background-color: #21D4FD;
+            background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+            border-radius: 10% 0% 10% 0% / 10% 0% 10% 0%;
+        }
+
+        .erwwww {
+            background-color: #21D4FD;
+            background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
+
+        }
+
+        .section7 div {
+            color: white;
+        }
+
+        footer * {
+            color: white;
+        }
+
+        footer div a {
+            display: block;
+            margin: 4px;
+        }
+
+        footer {
+            margin-top: 100px;
+        }
+
+        .nav1 {
+            width: 70%;
+            margin: auto;
+        }
+
+        .nav2 {
+            display: none;
+        }
+
+        @media screen and (max-width:1300px) {
+            .nav1 {
+                width: 100%;
+            }
+        }
+
+        @media screen and (max-width:700px) {
+            .them {
+                border-radius: 0% 20% 0% 19% / 0% 18% 2% 20%;
+                height: 300px;
+                width: 300px;
+                transition: all 1s linear;
+                margin: 10px;
+            }
+
+            main {
+                margin-top: 50px;
+            }
+
+            footer {
+                flex-direction: column;
+            }
+
+            .nav1 {
+                display: none;
+                width: 100%;
+            }
+
+            .nav2 {
+                display: block;
+            }
+
+            .im {
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav1 navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+            <img class="im" src="./images/MTB-Logo-green-web-header-v2.webp" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Current Studies
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Ankylosing Spondylitis</a></li>
+                            <li><a class="dropdown-item" href="#">COVID-19</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Pregnancy Studies</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex mt-3" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <nav class="nav2 navbar bg-light fixed-top">
+        <div class="container-fluid">
+            <img class="im" src="./images/MTB-Logo-green-web-header-v2.webp" alt="">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <img class="im" src="./images/MTB-Logo-green-web-header-v2.webp" alt="">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Current Studies
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Ankylosing Spondylitis</a></li>
+                                <li><a class="dropdown-item" href="#">COVID-19</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Pregnancy Studies</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="section1 p-5  ">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+
+                        <div class="row d-flex just justify-content-evenly  text-center text-md-start w-75 m-auto ">
+                            <div class="col-md-5">
+                                <h1>Join the What to Expect Community</h1>
+                                <p>Join our community for baby name ideas, birth month groups and more!</p>
+                                <a href="">Learn More</a>
+                            </div>
+                            <div class="col-md-5">
+                                <img class="w-100" src="./images/homepage-refresh-Hero-Image_Community.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex just justify-content-evenly  text-center text-md-start w-75 m-auto ">
+                            <div class="col-md-5">
+                                <h1>Calculate Your Ovulation Date</h1>
+                                <p>Find out when you're likely to conceive with our ovulation calculator.</p>
+                                <a href="">Learn More</a>
+                            </div>
+                            <div class="col-md-5">
+                                <img class="w-100" src="./images/homepage-refresh-Hero-Image_Ovulation.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row d-flex just justify-content-evenly  text-center text-md-start w-75 m-auto ">
+                            <div class="col-md-5">
+                                <h1>Calculate Your Pregnancy Due Date</h1>
+                                <p>When will baby be here? Use this tool to calculate your due date.</p>
+                                <a href="">Learn More</a>
+                            </div>
+                            <div class="col-md-5">
+                                <img class="w-100" src="./images/homepage-refresh-Hero-Image_DueDate.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <div class="row d-flex just justify-content-evenly  text-center text-md-start w-75 m-auto ">
+                            <div class="col-md-4">
+                                <h1>Try the Chinese Gender Predictor</h1>
+                                <p>This chart is a fun way to guess whether you’re having a boy or a girl.</p>
+                                <a href="">Learn More</a>
+                            </div>
+                            <div class="col-md-4">
+                                <img class="w-100" src="./images/homepage-refresh-Hero-Image_Predictor.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+
+
+
+        </section>
+        <section class="section2 d-flex  flex-column align-items-center justify-content-center ">
+            <button class="d-flex   col-md-5 btn  bnt align-items-center ">
+                <div class="w-25">
+                    <img class="w-100" src="./images/Best-Baby-Sale-2020-article.jpg" alt="">
+                </div>
+                <div class="w-75 mx-2 text-start">
+                    <b>Best Baby Deals Happening Right Now
+                    </b>
+                    By Erin Cavoto<i class="icofont-long-arrow-right"></i>
+                </div>
+            </button>
+            <button class="d-flex col-md-5 bnt btn align-items-center ">
+                <div class="w-25  ">
+                    <img class="w-100" src="./images/fever-in-pregnancy-article.jpg" alt="">
+                </div>
+                <div class="w-75 mx-2 text-start">
+                    <b>
+                        What to Do if You Develop a Fever During Pregnancy
+
+                    </b> by Jennifer Wu, M.D., F.A.C.O.G.<i class="icofont-long-arrow-right"></i>
+                </div>
+            </button>
+            <button class="d-flex col-md-5 bnt btn align-items-center ">
+                <div class="w-25  ">
+                    <img class="w-100" src="./images/how-much-water-pregnancy-2021-article.jpg" alt="">
+                </div>
+                <div class="w-75 mx-2 text-start">
+                    <b>
+                        How Much Water Should You Drink During Pregnancy?
+
+                    </b>by Alexandra Paetow, M.S., R.D.N.<i class="icofont-long-arrow-right"></i>
+                </div>
+            </button>
+            <button class="d-flex col-md-5 bnt btn align-items-center ">
+                <div class="w-25  ">
+                    <img class="w-100" src="./images/teeth-eruptions-2018-article.jpg" alt="">
+                </div>
+                <div class="w-75 mx-2 text-start">
+                    <b>
+                        What Order and When Do Baby Teeth Appear? This Baby Teething Chart Can Help
+
+                    </b>by Michelle Kelman, D.D.S.<i class="icofont-long-arrow-right"></i>
+                </div>
+            </button>
+        </section>
+        <section class="section3 p-5 text-light text-right d-flex">
+            <div class="col-2 d-none d-lg-block ">
+            </div>
+            <div class="col-10 mx-5 my-2 col-md-4">
+
+                <h1>
+                    Is It Safe for Me and My Baby?
+                </h1>
+                <p>
+
+                    Expert, confidential & no-cost information about medications and other
+                    exposures during pregnancy and breastfeeding by phone, text, email and chat.
+
+                </p>
+                <button type="button" class="btn btn-primary"> ASK OUR EXPERTS<i
+                        class="icofont-long-arrow-right"></i></button>
+            </div>
+        </section>
+        <section class="section5 p-5">
+            <h2>Baby Blog News & Updates</h2>
+            <div class="d-lg-flex justify-content-evenly   p-2 d-md-block ">
+                <div class=" col-lg-3 h-50   my-5">
+                    <div class="w-100">
+                        <img class="w-100" src="./images/oneblog.jpg" alt="">
+                    </div>
+                    <br>
+                    <h3>
+                        Fact or Myth? From One Latina Mom to Another
+                    </h3>
+                    <br>
+                    <p>
+                        Let’s face it, being pregnant can be hard, having a baby is without a doubt hard, and taking
+                        care of a newborn might be even harder, especially if it’s your first. Even when it feels like
+                        you are doing a great job, there is always someone who can’t stop suggesting ways to make things
+                        better.…
+                    </p>
+                    <a href="">
+                        READ<i class="icofont-long-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 h-50  my-5">
+                    <div class="w-100">
+                        <img class="w-100" src="./images/2blog.jpg" alt="">
+                    </div>
+                    <br>
+                    <h3>
+                        Ep. 46: Long COVID, Pregnancy and Pediatrics
+                    </h3>
+                    <br>
+                    <p>
+                        The American Academy of Pediatrics’ Alexandra Yonts, MD, FAAP joins host Chris Stallman, CGC, to
+                        talk about the symptoms of long COVID and the risks of it associated in pregnancy and children.
+                        Resources for families and healthcare providers mentioned by Dr. Yonts…
+                    </p>
+                    <a href="">
+                        READ<i class="icofont-long-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="col-lg-3 h-50  my-5">
+                    <div class="w-100">
+                        <img class="w-100" src="./images/3blog.jpg" alt="">
+                    </div>
+                    <br>
+                    <h3>
+                        MotherToBaby Bilingual Fact Sheets Now Included in the Prestigious National Library of Medicine
+                    </h3>
+                    <br>
+                    <p>
+                        Non-Profit’s Expertise Recognized as Leading Resource on Exposures during Pregnancy and
+                        Breastfeeding September 21, 2022 BRENTWOOD, TN – The non-profit Organization of Teratology
+                        Information Specialists (OTIS) through its public-facing service, MotherToBaby, are now
+                        contributors to the prestigious National Library of Medicine (NLM)…
+                    </p>
+                    <a href="">
+                        READ<i class="icofont-long-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="section4 p-5">
+            <div class="row d-flex justify-content-evenly align-items-center">
+                <div class="col-md-5 m-5">
+                    <h1>
+                        Discover Our Pregnancy Studies
+                    </h1>
+                    <p>
+                        Our observational studies examine the effects of medications and health conditions during
+                        pregnancy. Your participation can help improve safety information and help parents-to-be and
+                        health providers better navigate treatment decisions.
+                    </p>
+                    <a href="">LEARN MORE<i class="icofont-long-arrow-right"></i></a>
+                </div>
+                <div class="col-md-5 m-5">
+                    <img class="w-100  " src="./images/Preg-Calc-1.webp" alt="">
+                </div>
+            </div>
+        </section>
+        <section
+            class=" section6 d-lg-flex align-items-center justify-content-evenly flex-wrap  d-md-block my-3 m-auto">
+            <div class="them col-3 mx-2 ">
+                <h2> Request Materials</h2>
+                <p>Order free materials for patients and health providers about our information service and pregnancy
+                    studies.</p>
+                <button class="btn btn-primary">REQUEST<i class="icofont-long-arrow-right"></i></button>
+            </div>
+            <div class="them col-3 mx-2">
+                <h2> Stay in Touch</h2>
+                <p>Our e-Newsletter brings you the latest information, news, and resources from the experts at
+                    MotherToBaby.</p>
+                <button class="btn btn-primary">SIGN UP<i class="icofont-long-arrow-right"></i></button>
+            </div>
+            <div class="them col-3 mx-2">
+                <h2> Make a Donation</h2>
+                <p>Your generous support helps us provide safety information on exposures to families and health
+                    providers.</p>
+                <button class="btn btn-primary">DONATE<i class="icofont-long-arrow-right"></i></button>
+            </div>
+
+
+        </section>
+        <section class="section4 p-5">
+            <div class="row d-flex justify-content-evenly align-items-center">
+                <div class="col-md-5 m-5">
+                    <h1>
+                        Inclusion for All
+                    </h1>
+                    <p>
+                        MotherToBaby welcomes all individuals and families at all stages of their pregnancy and
+                        lactation journey and recognizes that not all people identify as “men” or “women.” We strive to
+                        use gender-neutral language when talking about pregnancy and lactation. By using inclusive and
+                        non-gendered terminology, we strive to enable all families to be empowered to reach their
+                        personal and familial pregnancy and lactation goals. While our name still contains a reference
+                        to “mothers”, we have updated our website and resources to use more inclusive terms where
+                        possible and where doing so allows the overall message to remain clear to the general
+                        population. We welcome feedback on any of the terms used and acknowledge that our understanding
+                        of these terms will evolve over time and is always better informed by open dialogue.
+                    </p>
+
+                    <button class="btn btn-primary">ABOUT US<i class="icofont-long-arrow-right"></i></button>
+                </div>
+                <div class="col-md-5 m-5">
+                    <img class="w-100  " src="./images/Gender-Inclusive_Homepage_MotherToBaby.webp" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="section7 m-5">
+            <h2>What Can MotherToBaby Offer You?</h2>
+            <div class=" row d-flex align-items-center justify-content-evenly my-3 ">
+                <div class="erwww p-3 py-5 col-md-4 my-5">
+                    <h4>Resources for People Who Are Pregnant and/or Breastfeeding</h4>
+                    <p>Get easy-to-read information on the safety or risk of medications, drugs, or other exposures
+                        during pregnancy and while breastfeeding.</p>
+                    <button class="btn btn-primary">BROWSE NOW <i class="icofont-long-arrow-right"></i></button>
+                </div>
+                <div class="erwww p-3 py-5 col-md-4 my-5">
+                    <h4>Resources for People Who Are Pregnant and/or Breastfeeding</h4>
+                    <p>Get easy-to-read information on the safety or risk of medications, drugs, or other exposures
+                        during pregnancy and while breastfeeding.</p>
+                    <button class="btn btn-primary">BROWSE NOW <i class="icofont-long-arrow-right"></i></button>
+                </div>
+
+            </div>
+        </section>
+        <section class="section4 p-5">
+            <div class="row d-flex justify-content-evenly align-items-center">
+                <div class="col-md-5 m-5">
+                    <h1>
+                        Pregnancy Due Date Calculator
+                    </h1>
+                    <p>
+                        Find out your estimated due date by entering the first day of your last menstrual period and
+                        your average cycle length. Did You Know? Only 1 in 20 babies are born on their actual due date.
+                        A normal pregnancy often lasts between 38 to 42 weeks, which keeps most parents guessing right
+                        up until labor starts!
+                    </p>
+                    <button class="btn btn-primary">TRY OUT <i class="icofont-long-arrow-right"></i></button>
+                </div>
+                <div class="col-md-5 m-5">
+                    <img class="w-100  " src="./images/MOEEEEE.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="erwwww  p-5  d-flex  flex-md-wrap justify-content-evenly ">
+        <div class=" my-3  col-md-3 d-block">
+            <a href="">Hot Links</a>
+            <hr>
+            <a href="">Home</a>
+            <a href="">Exposures</a>
+            <a href="">Fact Sheet</a>
+            <a href="">Baby Blogs</a>
+            <a href="">Podcasts</a>
+            <a href="">Pregnancy Studies</a>
+            <a href="">Join a study Now</a>
+            <a href="">Healthcare Professionals</a>
+            <a href="">Refer a Patient</a>
+            <a href="">News</a>
+            <a href="">Donate</a>
+        </div>
+        <div class="my-3  col-md-3">
+            <a href="">Current Studies</a>
+            <hr>
+            <a href="">Ankylosing Spondylitis</a>
+            <a href="">Asthma</a>
+            <a href="">COVID-19</a>
+            <a href="">Psoriasis</a>
+            <a href="">Mulltiple Sclerosis</a>
+            <a href="">Ulcerative Colitis</a>
+        </div>
+        <div class="my-3  col-md-3">
+            <a href="">Contact</a>
+            <hr>
+            <a href="">Exposure Information service 866 311 8972</a>
+            <a href="">Pregnancy Studies 877 311 8972</a>
+            <a href="">Media Inquiries 619 368 3259</a>
+            <a href="">MotherToBaby, a service of the Organization of Teratology Information Specialists</a>
+
+        </div>
+    </footer>
+</body>
+
+</html>

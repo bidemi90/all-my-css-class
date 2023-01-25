@@ -1,0 +1,274 @@
+body {
+    background-color: rgb(243, 243, 243);
+    font-family: sans-serif;
+}
+
+nav {
+    width: 1300px;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-bottom: 0px;
+    margin: auto;
+    position: fixed ;
+    right: 15.8%;
+}
+.posi .social i{
+    background-color: rgb(255, 94, 0);
+    border-radius: 30px;
+    display: block;
+    width: fit-content;
+    margin-top: 10px;
+    color: white;
+}
+   .social {
+    position: fixed;
+    right: 0;
+    bottom: 35%;
+}
+.social a{
+    text-decoration: none;
+}
+.pobut{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.posi .pobut button, .posi .pobut button a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 94, 0);
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+.linkbar {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 700px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hoverlink {
+    width: 135px;
+}
+
+.dropdown {
+    display: none;
+}
+
+.link3:hover .dropdown {
+    margin-top: 10px;
+    display: block;
+    background-color: white;
+    border-top: 2px solid rgb(234, 111, 40);
+    position: absolute;
+    left: 980px;
+}
+.dropdown div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.link4 button{
+    margin-top: -10px;
+   padding:5px 10px;
+   background-color:  rgb(234, 111, 40);
+   border: none;
+   border-radius: 5px;
+   color: white;
+}
+.link4 button a{
+    color: white;
+}
+
+main {
+    background-color: rgb(255, 255, 255);
+    width: 1400px;
+    margin: auto;
+}
+
+.h11 {
+    text-align: center;
+}
+
+.h111 {
+    text-align: center;
+    text-align-last: center;
+}
+
+.but1 {
+    background-color: rgb(255, 94, 0);
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+}
+
+.but1 a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.divbrt {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.fir {
+    padding-top: 100px;
+}
+
+.main {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-around;
+
+}
+
+.ui1 {
+    height: 1000px;
+    width: 600px;
+
+    background-color: rgba(224, 224, 224, 0.611);
+    border-radius: 30px;
+margin-bottom: 30px;
+}
+
+.uioy {
+    height: 500px;
+    width: 600px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.serdiv {
+    margin-left: 20px;
+}
+
+.seraa {
+    background-color: rgb(255, 94, 0);
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+}
+.serab {
+    background-color: rgb(255, 94, 0);
+    width: 340px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+}
+.serac {
+    background-color: rgb(255, 94, 0);
+    width: 340px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+}
+.serad {
+    background-color: rgb(255, 94, 0);
+    width: 340px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+}
+.serae {
+    background-color: rgb(255, 94, 0);
+    width: 340px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+}
+.seraf {
+    background-color: rgb(255, 94, 0);
+    width: 340px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+}
+.serag {
+    background-color: rgb(255, 94, 0);
+    width: 340px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+}
+.serah {
+    background-color: rgb(255, 94, 0);
+    width: 240px;
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+    color: white;
+}
+.ser1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.ser1 .divrty {
+    height: 100px;
+    width: 100px;
+    display: block;
+}
+
+.ser1 .divrty div,
+.ser1 .divrty p {
+    text-align: center;
+}
+.erty{
+    display: flex;
+    justify-content: space-evenly;
+}
+.smlimg {
+    width: 180px;
+    height: 100px;
+    border-radius: 5px;
+}
+.dert{
+    padding: 10px;
+    background-color: rgb(255, 94, 0);
+    margin-top: 80px;
+width: 140px;
+border: none;
+border-radius: 10px;
+
+}
+.dert a{
+    text-decoration: none;
+    font-size: large;
+    color: white;
+}
+.seb{
+    text-align: center;
+}
+footer{
+   margin-top: 40px; 
+    padding: 20px;
+    text-align: center;
+}
+footer a{
+    color: rgb(153, 153, 153);
+    text-decoration: none;
+}

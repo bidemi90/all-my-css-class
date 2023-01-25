@@ -1,0 +1,127 @@
+body {
+    background-color: #4e7d55;
+    margin: 0px;
+color: white;
+}
+
+main {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+
+    padding: 20px;
+    width: 400px;
+    background-color: #0f3f49;
+    border-radius: 10px;
+
+}
+
+main div {
+    text-align: center;
+}
+
+main:hover {
+    width: 600px;
+    
+}
+
+main:hover .fir {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.opu{
+    display: none;
+}
+main:hover .opu{
+    display: block;
+}
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 40px;
+}
+
+.img {
+    text-align: center;
+}
+
+
+.seco{
+    margin-top: 10px;
+    padding: 20px;
+    display: block;
+}
+
+.firstbut{
+    width: 300px;
+    padding: 20px;
+    background-color: #63d471;
+    border: none;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    color: white;
+}
+.edu,.ski,.exp{
+    display: none;
+}
+main:hover .firstbut{
+width: 500px;
+}
+.firstbut:focus .edu{
+    display: block;
+    
+}
+.firstbut:focus .ski{
+    display: block;
+  
+}
+.firstbut:focus .exp{
+    display: block;
+    
+}
+.next {
+    width: 500px;
+    margin: auto;
+    margin-top: 100px;
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pre {
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    background-color: #63d471;
+}
+
+.nex {
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color:  #63d471;
+}
+
+.pre a,
+.next a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.pre:hover,
+.nex:hover {
+    background-color: #0f3f49;
+    color: black;
+}
+
+.pre:hover .lip {
+    color: white;
+}
+
+.nex:hover .lin {
+    color: white;
+}

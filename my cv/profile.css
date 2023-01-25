@@ -1,0 +1,130 @@
+body {
+    background-color: #ff7fae;
+    margin: 0px;
+}
+
+button {
+    background-color: #8333e9;
+    border: none;
+    color: white;
+}
+
+.next {
+    width: 500px;
+    margin: auto;
+    margin-top: 200px;
+    height: 40px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pre {
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(54, 54, 54);
+}
+
+.nex {
+    width: 100px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(54, 54, 54);
+}
+
+.pre a,
+.next a {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.pre:hover,
+.nex:hover {
+    background-color: #ffc6bf;
+    color: black;
+}
+
+.pre:hover .lip {
+    color: black;
+}
+
+.nex:hover .lin {
+    color: black;
+}
+
+main {
+
+    width: 520px;
+    background-color: #ffc6bf;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    padding: 20px;
+}
+
+.img {
+    text-align: center;
+}
+
+img {
+    border-radius: 200px;
+    width: 300px;
+    height: 300px;
+    /* height: 200px; */
+}
+
+.first {
+
+    display: none;
+}
+
+.firstt {
+    display: none;
+    text-align: center;
+    width: 500px;
+
+}
+
+.mainbut:hover .first {
+    display: block;
+    margin: auto;
+    margin: 25px 0px;
+}
+
+.mainbut:hover .firstt {
+    display: block;
+    margin: auto;
+}
+
+.firstbut {
+    display: block;
+    width: 500px;
+    margin: 25px 0px;
+    padding: 30px;
+}
+
+.edu {
+    display: none;
+}
+
+.ski {
+    display: none;
+}
+
+.exp {
+    display: none;
+}
+
+.EDUCATION:focus .edu {
+    display: block;
+}
+
+.SKILLS:focus .ski {
+    display: block;
+}
+
+.EXPERIENCE:focus .exp {
+    display: block;
+}
